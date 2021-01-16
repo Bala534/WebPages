@@ -1,0 +1,117 @@
+.a{
+	height: 50px;
+	background:white;
+}
+.b{
+	width: 5%;
+	height:45px;
+	margin-left: 8px;
+	margin-top: 3px;
+}
+.c{
+	margin-bottom: 13px;
+	margin-left: 10px;
+}
+.d{
+	margin-left: 800px;
+	margin-top: -36px;
+}.e{
+	margin-left: 1050px;
+	margin-top: -40px;
+}
+.f{
+	margin-left: 1275px;
+	margin-top: -40px;
+}
+.g{
+	margin-left: 1450px;
+	margin-top: -80px;
+	height:43px;
+	border-radius: 50%;
+}
+.one{
+	background:#748eff;
+	height: 1100px;
+}
+.two{
+	background: #32a852;
+	height: 1100px;
+}
+.h{
+	height: 150px;
+	width: 300px;
+	background: white;
+	margin-left: 145px;
+	margin-top: 120px;
+}
+.i{
+	border-radius: 50%;
+	height: 125px;
+	width: 105px;
+    margin-left: 95px;
+    margin-top: -40px;
+}
+.j{
+	margin-left: 105px;
+	margin-top: 10px;
+}
+.k{
+	margin-left: 145px;
+	color: red;
+}
+.l{
+	margin-left: 145px;
+	width: 30%;
+}
+.m{
+	margin-left: 145px;
+	color: white;
+}
+.n{
+	background: white;
+	height: 950px;
+	width: 700px;
+	margin-left: 40px;
+	margin-top: 90px;
+}
+.o{
+	margin-left: 50px;
+	padding-top: 30px;
+	color: red;
+	font-size: 20px;
+}
+.p{
+	margin-left: 570px;
+    margin-top: -40px;
+    color: #99ccff;
+}
+.q{
+	margin-left: 50px;
+}
+.r{
+	margin-left: 590px;
+	margin-top: -40px;
+}
+.s{
+	margin-left: 450px;
+	margin-top: -40px;
+}
+.t{
+	margin-left: 50px;
+	border-radius: 50%;
+	height:45px;
+	width: 65px;
+}
+.u{
+	margin-left: 30px;
+	border-radius: 50%;
+	height:45px;
+	width: 55px;
+}
+.three{
+	height: 30px;
+	background: #ff884d;
+}
+.v{
+	color: white;
+}
