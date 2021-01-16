@@ -17,3 +17,7 @@
 ## Assignment 5
 
 <img src='https://raw.githubusercontent.com/Bala534/WebPages/main/assignment5.jpeg'>
+
+## Assignment 6
+
+<img src='https://raw.githubusercontent.com/Bala534/WebPages/main/assignment6.jpeg'>
