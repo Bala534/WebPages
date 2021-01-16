@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assignment8.css">
+</head>
+<body>
+<div class="calculator">
+    <div class="row">
+    <input class="top"type="text" name="result"><br>
+    </div>
+
+
+    <div class="row1">
+         <button class="btn" onclick="display(7)">7</button>
+         
+        <button class="btn" onclick="display(8)">8</button>
+         
+         <button class="btn" onclick="display(9)">9</button>
+        <button class="btn1" onclick="display('*')">*</button><br>
+        
+    </div>
+    <div class="row1">
+         <button class="btn" onclick="display(4)">4</button>
+         
+        <button class="btn" onclick="display(5)">5</button>
+         
+         <button class="btn" onclick="display(6)">6</button>
+         
+        <button class="btn1" onclick="display('-')">-</button><br>
+        
+    </div>
+    <div class="row1">
+         <button class="btn" onclick="display(1)">1</button>
+         
+        <button class="btn" onclick="display(2)">2</button>
+         
+         <button class="btn" onclick="display(3)">3</button>
+         
+        <button class="btn1" onclick="display('+')">+</button><br>
+        
+    </div>
+    <div class="row1">
+         <button class="btn" onclick="display(0)">0</button>
+         
+        <button class="btn" onclick="display('.')">.</button>
+         
+         <button class="btn" onclick="calculate()">=</button>
+         
+        <button class="btn1" onclick="display('/')">/</button><br>
+        
+    </div>
+    <button class="delet" onclick="deleting()">clear</button>
+
+    
+    
+</div>
+</body>
+
+<script type="text/javascript">
+
+
+    function display(a){
+        document.getElementsByName('result')[0].value+=a;
+
+    }
+    function calculate(){
+        var c=eval(document.getElementsByName('result')[0].value)
+        document.getElementsByName('result')[0].value=c;
+    }
+    function deleting(){
+        document.getElementsByName("result")[0].value='';
+    }
+</script>
+
+</html>

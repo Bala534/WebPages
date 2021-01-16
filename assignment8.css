@@ -1,0 +1,53 @@
+body{
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0hPk2xKiA3SolQaK5xnC9AtYCp3qKn_aVNA&usqp=CAU");   
+}
+
+.calculator{
+    margin-left:570px;
+    margin-top:110px;
+}
+
+.top {
+    background-color: red;
+    width:257px;
+    height: 70px;
+    color:black;
+    border:1px solid black;
+}
+
+input[type=text]{
+    padding: 10px;
+}
+
+.row1{
+    margin-left: 5px;
+}
+
+.btn{
+    padding:25px;
+    width: 70px;
+    margin-top: -1px;
+    border:1px solid black;
+    background:#03c6fc;
+    color: black;
+    margin-left: -5px;
+}
+
+.delet{
+    width: 277px;
+    height: 60px;
+    background-color: #909596;
+    color: black;
+    margin-top: -1px;
+    border: 1px solid black; 
+}
+
+.btn1{
+    padding:25px;
+    width: 70px;
+    margin-top: -1px;
+    border:1px solid black;
+    background-color: #f7be20;
+    color: grey;
+    margin-left: -5px;
+}
