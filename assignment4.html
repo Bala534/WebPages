@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        
+         <meta name="viewport" content="width=device-width"/>
+<style>
+body {
+  background-color:#D2CECE;
+  color:white;   
+}
+#top {
+  text-align:center;
+}
+#top p{
+  margin-top:-10px;
+  font-size:13px;
+}
+.mainform{
+  padding-top:10px;
+  padding-left:30px;
+  width:300px;
+  height:850px;
+  border:1px solid white;
+  margin:auto;
+  background-color:indigo;
+  font-size:10px;
+}
+.mainform input[type="text"],[type="number"],[type="select"]{
+  margin-top:7px;
+  padding:3px 70px 3px 10px;
+  border:1px solid lightgrey;
+  border-radius:5px;
+}
+.mainform input[type="radio"]{
+  font-size:100px;
+}
+.jok{
+  width:270px;
+  background-color:#57B846;
+  border:1px solid green;
+  color:white;
+   padding-top:5px;
+  padding-bottom:5px;
+}
+.samp{
+  color:black;   
+}
+</style>        
+        
+        
+    </head>
+    <body>
+    <div id="top">
+       <header>
+        <h2> Vedic Survey Form </h2> 
+        <p><i>Thank you for taking the time to help us improve the platform</i></p>
+       </header> 
+       </div>
+       <article>
+          <div class="mainform">
+            <form>
+                <lable>Name</lable>
+                <br>
+                <input type="text" placeholder="Enter your name">
+                <br>
+                <br>
+                <label>
+                    Email
+                </label>
+                
+                <br>
+                <input type="text" placeholder="Enter your email">
+                <br>
+                <br>
+                <lable>Age(optional)</lable>
+                <br>
+                <input type="number" placeholder="Age">
+                <br>
+                <br>
+                <label>
+                    which option best descibes current role?
+                </label>
+                <input type="text" list="o" placeholder="select an option">
+                <datalist id="o">
+                    <option value="one">
+                    <option value="two">
+                </datalist>
+                <br>
+                <br>
+                <label>would you recommend free code camp to a friend</label>
+                <br>
+                <br>
+                <input type="radio" name="option">Definitely
+                <br>
+              <input type="radio" name="option">Maybe
+                <br> 
+              <input type="radio" name="option">Not sure
+                <br> 
+                <br>
+                <br>
+                <br>
+                <label>What is your favourite featuer of freecodecamp?</label>
+                <input type="text" list="t" placeholder="select an option">
+                <datalist id="t">
+                    <option value="helo">
+                    <option value="hii">
+                </datalist>
+               <br>
+               <br>
+               <br>
+               <label>what would you like to see improved?(check all that apply)</label>
+               <br>
+               <br>
+                
+               <input type="checkbox">Front-end projects
+               <br>
+                <input type="checkbox">Back-end projects
+                <br>
+               <input type="checkbox">Data Visualization
+               <br>
+                <input type="checkbox">challenges
+                <br>
+               <input type="checkbox">open source community
+               <br>
+                <input type="checkbox">Gitter help rooms
+                <br>
+               <input type="checkbox">Videos
+               <br>
+                <input type="checkbox">City Meetups
+                <br>
+               <input type="checkbox">Wiki
+               <br>
+                <input type="checkbox">Forum
+                <br>
+                
+                <input type="checkbox">Additional courses
+               <br>
+               <br>
+               <br>
+               <label for="h">Any comments or suggestions?</label>
+               <br>
+                <br>
+               <textarea class="samp" rows="4"cols="33" placeholder="Enter your comments here...">
+                
+               </textarea> 
+                <br>
+                <br>
+                <br>
+                <input class="jok" type="submit" value="submit"> 
+           </form>   
+          </div>     
+       </article>
+    </body>
+</html>
